@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stylish Portolio template for Jekyll
 
 A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
@@ -10,3 +11,6 @@ See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
 - Add as many address lines as you want. Your address will also be used to show your location on the map.
 - For the emdeded map to work you'll need to [get a key from Google Maps Embed API](https://developers.google.com/maps/documentation/embed/?hl=en)
 - In `_layouts/front.html` reorder or remove section as you prefer.
+=======
+# ludobonnet.github.io
+>>>>>>> 5d6e0242f8737e5d383a91ecb7bb92bae9392a75
