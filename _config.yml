@@ -1,28 +1,25 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Bonnet.pro
+email: ludovic@bonnnet.pro
+description: > # Ludovic Bonnet, consultant web indépendant depuis 2007.
+  Conseil AMOA /AMOE, développement Web et Mobile, Référencement, Infogérance
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://www.bonnet.pro" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: Ludovic Bonnet
+email: contact@bonnet.pro
+skype: lbonnet84
+facebook_username: example
+linkedin_profile: https://fr.linkedin.com/in/ludovicbonnet
+twitter_username: ludobonnet
+github_username: ludobonnet
 address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
-
-# API settings
-google_api_key:
+  - line: "Paris, France"
+  # Feel free to add more lines here
+telephone: +33 (7) 56 94 56 06
+copyright: Ludovic Bonnet
 
 # Build settings
 markdown: kramdown
+exclude: ["node_modules", "gulpfile.js", "package.json"]

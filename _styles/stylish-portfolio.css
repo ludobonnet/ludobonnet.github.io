@@ -162,6 +162,16 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header .btn-dark {
+    background-color: #337AB7;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    background-color: #23527c;
+}
+
 /* About */
 
 .about {
