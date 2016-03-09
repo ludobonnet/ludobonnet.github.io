@@ -2,6 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2>Contact</h2>
+        <hr class="small">
         <h4><strong>{{ site.owner }}</strong>
         </h4>
         <p>
@@ -13,17 +15,30 @@
           <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
           <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
+          <li>
+            <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+              <div id="SkypeButton_Call_{{ site.skype }}_1">
+               <script type="text/javascript">
+               Skype.ui({
+               "name": "call",
+               "element": "SkypeButton_Call_{{ site.skype }}_1",
+               "participants": ["{{ site.skype }}"],
+               "imageSize": 32
+               });
+               </script>
+              </div>
+          </li>
         </ul>
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a href="{{ site.linkedin_profile }}" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">
