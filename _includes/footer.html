@@ -12,20 +12,8 @@
           {% endfor %}
         </p>
         <ul class="list-unstyled">
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
           <li>
-            <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-              <div id="SkypeButton_Call_{{ site.skype }}_1">
-               <script type="text/javascript">
-               Skype.ui({
-               "name": "call",
-               "element": "SkypeButton_Call_{{ site.skype }}_1",
-               "participants": ["{{ site.skype }}"],
-               "imageSize": 32
-               });
-               </script>
-              </div>
+            <i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
         </ul>
         <br>
